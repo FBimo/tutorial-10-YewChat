@@ -93,8 +93,7 @@ impl Component for Chat {
                             .map(|u| UserProfile {
                                 name: u.into(),
                                 avatar: format!(
-                                    "https://avatars.dicebear.com/api/adventurer-neutral/{}.svg",
-                                    u
+                                    "https://i.postimg.cc/RVGz52gb/janaeither-t-profile-gif.gif"
                                 )
                                 .into(),
                             })
